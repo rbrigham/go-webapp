@@ -15,5 +15,5 @@ func main() {
 }
 
 func handler(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(res, "<html><body><h1>My Go Web App</h1><h2>Hello GitHub</h2></body></html>")
+	fmt.Fprintln(res, "<html><body><h1>My Go Web App</h1><h2>Delivered by CodePipeline</h2></body></html>")
 }

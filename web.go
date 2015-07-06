@@ -15,5 +15,5 @@ func main() {
 }
 
 func handler(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(res, "Hello CodePipeline")
+	fmt.Fprintln(res, "Hello GitHub")
 }

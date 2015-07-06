@@ -1,2 +1,2 @@
-pkill go-webapp
+pkill GoWebApp
 exit 0
